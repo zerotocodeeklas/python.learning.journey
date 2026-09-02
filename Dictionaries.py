@@ -29,5 +29,28 @@ Student["age"] = 23
 print(Student)
 
 
+#Create a dictionary containing:name = Eklas,age = 24,major = Computer Science.Then:Delete major&Print the dictionary.
+personal_info={
+    "name":"Eklas",
+    "age":24,
+    "major":"CS"
+}
+personal_info.pop("major")
+print(personal_info)
+
+
+#Create a dictionary containing:name = Eklas,age = 24,city = Muscat,major = Computer Science.Then:Print the dictionary,Print the number of items in the dictionary using len().
+personal_info={
+    "name":"Eklas",
+    "Age":24,
+    "City":"Muscat",
+    "major":"CS"
+}
+print(personal_info)
+print(len(personal_info))
+
+
+
+
 
 
