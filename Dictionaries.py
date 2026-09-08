@@ -50,6 +50,28 @@ print(personal_info)
 print(len(personal_info))
 
 
+#Create a dictionary containing name, age, and city. Use a for loop to print each key and its value.
+info={
+    "name":"Eklas",
+    "age":24,
+    "city":"Muscat"
+}
+for key in info:
+    print(key,":",info[key])
+
+
+#Search in a Dictionary:Create this dictionary.Ask the user to enter a key. If the key exists, print its value.If the key does not exist, print:Key not found
+
+Dictionary_info={
+    "name":"Eklas",
+    "age":24,
+    "major":"CS"
+}
+key = input("Enter a key: ")
+if key in Dictionary_info:
+    print(Dictionary_info[key])
+else:
+    print("Key not found")
 
 
 
